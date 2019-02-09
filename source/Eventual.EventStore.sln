@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.EventStore", "Eventual.EventStore\Eventual.EventStore.csproj", "{15DFE852-583F-4E19-B9C7-CB49B807D6E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.Common", "Eventual.Common\Eventual.Common.csproj", "{773D0AF8-9A0D-46D5-95E2-AED7894FC75C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.EventStore.Serialization.Json", "Eventual.EventStore.Serialization.Json\Eventual.EventStore.Serialization.Json.csproj", "{5998223E-8E63-438F-9D22-05EDBD337FFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.EventStore.EntityFrameworkCore", "Eventual.EventStore.EntityFrameworkCore\Eventual.EventStore.EntityFrameworkCore.csproj", "{DD45D0EA-B174-4D7C-98EE-367C25D35130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2AD4BC04-2C53-4D6B-86DB-375B1A6E4230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{343F391A-9D1A-4F0E-9E24-6E5ADBFE3CA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStreamReaderExample", "EventStreamReaderExample\EventStreamReaderExample.csproj", "{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStreamReactiveReaderExample", "EventStreamReactiveReaderExample\EventStreamReactiveReaderExample.csproj", "{29C0D335-9D4B-477C-982E-CCC4CEB45409}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.EventStore.Readers", "Eventual.EventStore.Readers\Eventual.EventStore.Readers.csproj", "{8C9BA8A2-8293-4A76-83D0-8F9223495D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventual.EventStore.Readers.Tests.Integration", "Eventual.EventStore.Readers.Tests.Integration\Eventual.EventStore.Readers.Tests.Integration.csproj", "{48DF2899-4ADF-40A2-931B-8E85C3E83861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStreamReactiveObservablesExample", "EventStreamReactiveObservablesExample\EventStreamReactiveObservablesExample.csproj", "{59877AC7-3F13-41EC-A7F4-AFA010CE9760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStreamedTrackedReactiveReaderExample", "EventStreamedTrackedReactiveReaderExample\EventStreamedTrackedReactiveReaderExample.csproj", "{F2389545-00F7-4853-B65C-0858B451E9B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DFE852-583F-4E19-B9C7-CB49B807D6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DFE852-583F-4E19-B9C7-CB49B807D6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DFE852-583F-4E19-B9C7-CB49B807D6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DFE852-583F-4E19-B9C7-CB49B807D6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773D0AF8-9A0D-46D5-95E2-AED7894FC75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773D0AF8-9A0D-46D5-95E2-AED7894FC75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773D0AF8-9A0D-46D5-95E2-AED7894FC75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773D0AF8-9A0D-46D5-95E2-AED7894FC75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5998223E-8E63-438F-9D22-05EDBD337FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5998223E-8E63-438F-9D22-05EDBD337FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5998223E-8E63-438F-9D22-05EDBD337FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5998223E-8E63-438F-9D22-05EDBD337FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD45D0EA-B174-4D7C-98EE-367C25D35130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD45D0EA-B174-4D7C-98EE-367C25D35130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD45D0EA-B174-4D7C-98EE-367C25D35130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD45D0EA-B174-4D7C-98EE-367C25D35130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C0D335-9D4B-477C-982E-CCC4CEB45409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C0D335-9D4B-477C-982E-CCC4CEB45409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C0D335-9D4B-477C-982E-CCC4CEB45409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C0D335-9D4B-477C-982E-CCC4CEB45409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9BA8A2-8293-4A76-83D0-8F9223495D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9BA8A2-8293-4A76-83D0-8F9223495D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9BA8A2-8293-4A76-83D0-8F9223495D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9BA8A2-8293-4A76-83D0-8F9223495D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DF2899-4ADF-40A2-931B-8E85C3E83861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DF2899-4ADF-40A2-931B-8E85C3E83861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DF2899-4ADF-40A2-931B-8E85C3E83861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DF2899-4ADF-40A2-931B-8E85C3E83861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59877AC7-3F13-41EC-A7F4-AFA010CE9760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59877AC7-3F13-41EC-A7F4-AFA010CE9760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59877AC7-3F13-41EC-A7F4-AFA010CE9760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59877AC7-3F13-41EC-A7F4-AFA010CE9760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2389545-00F7-4853-B65C-0858B451E9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2389545-00F7-4853-B65C-0858B451E9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2389545-00F7-4853-B65C-0858B451E9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2389545-00F7-4853-B65C-0858B451E9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DD001C3-6FD8-4EAB-9E9B-CDEBD1D19564} = {343F391A-9D1A-4F0E-9E24-6E5ADBFE3CA3}
+		{29C0D335-9D4B-477C-982E-CCC4CEB45409} = {343F391A-9D1A-4F0E-9E24-6E5ADBFE3CA3}
+		{48DF2899-4ADF-40A2-931B-8E85C3E83861} = {2AD4BC04-2C53-4D6B-86DB-375B1A6E4230}
+		{59877AC7-3F13-41EC-A7F4-AFA010CE9760} = {343F391A-9D1A-4F0E-9E24-6E5ADBFE3CA3}
+		{F2389545-00F7-4853-B65C-0858B451E9B5} = {343F391A-9D1A-4F0E-9E24-6E5ADBFE3CA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66BA92FA-C01E-4835-B661-1FD4A4AE0467}
+	EndGlobalSection
+EndGlobal
