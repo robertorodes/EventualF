@@ -21,7 +21,7 @@ namespace Eventual.EventStore.EntityFrameworkCore
             : base()
         { }
 
-        public EventStoreDbContext(DbContextOptions<EventStoreDbContext> options)
+        public EventStoreDbContext(DbContextOptions options)
             : base(options)
         { }
 
