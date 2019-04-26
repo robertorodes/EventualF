@@ -3,12 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>EventualF.EventStore</PackageId>
-    <Version>1.0.1-alpha</Version>
+    <Version>1.0.2-alpha</Version>
     <Authors>Roberto Rodes</Authors>
     <Product>EventualF.EventStore</Product>
     <RepositoryUrl>https://github.com/robertorodes/EventualF</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/robertorodes/EventualF/blob/master/LICENSE</PackageLicenseUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

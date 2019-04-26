@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>EventualF.Common</PackageId>
+    <Version>1.0.0-alpha</Version>
+    <Authors>Roberto Rodes</Authors>
+    <Product>EventualF.Common</Product>
+    <PackageLicenseUrl>https://github.com/robertorodes/EventualF/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/robertorodes/EventualF</RepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
